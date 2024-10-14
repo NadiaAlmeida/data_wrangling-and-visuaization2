@@ -193,7 +193,7 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::summarize() 
+# dplyr::summarize() takes all rows and gives you one like the mean of something
 
 ```
 
@@ -217,7 +217,7 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::group_by() # or ".by =" 
+# dplyr::group_by() # or ".by =" does the code for every row in the chosen group like the mean in summarize for every individual instead of one single mean 
 
 ```
 
