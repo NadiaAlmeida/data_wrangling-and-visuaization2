@@ -1,6 +1,6 @@
 ---
 title: "Important functions for data wrangling"
-author: "Template: Ian Hussey; Content: Nadia Almeida Ferreira"
+author: "Template: Ian Hussey; Content: [student name]"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
@@ -112,7 +112,7 @@ Useful arguments:
 
 ```{r}
 
-# %>% uses output of a line as the input of the next line
+# %>%
 
 # |>
 
@@ -138,7 +138,7 @@ Useful arguments:
 
 ```{r}
 
-# dplyr::filter() -> is for rows so left right 
+# dplyr::filter()
 
 ```
 
@@ -161,7 +161,7 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::select() ->is for columns so up down 
+# dplyr::select()
 
 ```
 
@@ -169,7 +169,7 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::rename() -> (new name = name in file)
+# dplyr::rename()
 
 ```
 
@@ -177,7 +177,7 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::mutate() change 
+# dplyr::mutate()
 
 ```
 
@@ -201,7 +201,7 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::count() # gives you the ammount of each response
+# dplyr::count()
 
 ```
 
@@ -209,8 +209,8 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::distinct() # gives you every response that there is so that you know all answer types
-                    # also deletes duplicates that happen with full_joins
+# dplyr::distinct()
+
 ```
 
 ## group_by
@@ -249,15 +249,15 @@ slice(mtcars, 2:n()) # this should have 31 rows
 
 ```{r}
 
-# dplyr::full_join() retains all data from x and y. problem: get many duplicates which is bad 
+# dplyr::full_join()
 
-# dplyr::left_join() join matching values from y to x
+# dplyr::left_join()
 
-# dplyr::right_join() join matching values from x to y
+# dplyr::right_join()
 
-# dplyr::inner_join() join data and retain only rows with matches
+# dplyr::inner_join()
 
-# dplyr::semi_join() Return rows of x that have a match in y
+# dplyr::semi_join()
 
 ```
 
@@ -303,23 +303,6 @@ slice(mtcars, 2:n()) # this should have 31 rows
 #   knitr::kable() |> # print a nicer looking table
 #   kableExtra::kable_classic(full_width = FALSE) # print nicer again
 
-```
-
-# multiline putting # 
-
-```{r}
-# asrgarg
-# argsarg.   #command shift c
-# sgdg
-```
-
-#multiline typing
-
-```{r}
-#option and drag with mouse
-# skfhk aseflasef
-# skfhk aseflasef
-# skfhk aseflasef
 ```
 
 # Other packages 
